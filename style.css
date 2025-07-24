@@ -59,10 +59,16 @@
     margin-top: 90px;
 }
 .header-text{
+    background-color: aqua;
+    align-items: center;
     max-width: 570px;
+}
+.header-img img{
+    max-width: 100%;
 }
 .header-content{
     font-size: 22px;
+    padding-bottom: 0%;
 }
 .header-text-title{
     font-size: 65px;
@@ -116,4 +122,35 @@
    font-size: 22px;
     font-weight: 700;
 
+}
+.store-container{
+    justify-content: center;
+    margin-top: 220px;
+}
+.store-img-container{
+    justify-content: space-evenly;
+}
+.store-img img{
+    max-width: 100%;
+}
+.badge{
+    justify-items: center;
+    width: 286px;
+}
+.store-content{
+    background-color: aqua;
+    flex-direction: column;
+    max-width: 540px;
+    align-items: center;
+}
+.store-para{
+    font-size: 22px;
+}
+.store-para-list{
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+.store-content-title{
+    font-size: 50px;
 }
