@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font1{
+  font-family: "Noto Serif", serif;
+}
+.font2{
+  font-family: "Inter", sans-serif;
+}
+.bold{
+    font-weight: bold;
+}
+.color1{
+    color: rgba(37, 36, 50, 1)
+}
+.color2{
+ color:  rgba(137, 135, 161, 1)
+}
+.color3{
+    color: rgba(233, 90, 8, 1);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.all{
+     max-width: 1250px;
+    margin: 0 auto;
+}
+.btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(233, 90, 8, 1);
+    padding: 26px 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* header section start */
+
+.nav-bar{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.nav-list{
+    gap: 48px;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    
+}
+.header-container{
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.header-text{
+    max-width: 570px;
+}
+.header-content{
+    font-size: 22px;
+}
+.header-text-title{
+    font-size: 65px;
+    color: rgba(0, 0, 0, 1);
+}
+.nav-cart{
+    gap: 10px;
+}
+.nav-cart img{
+    width: 30px;
+}
+.nav-menu{
+    gap: 48px;
+}
+
+/* main section start */
+.body{
+    
+}
+.flower-container{
+    margin-top: 140px;
+    text-align: center;
+}
+.flower-content-title{
+    font-size: 50px;
+}
+.flower-paragraph{
+    margin: 0 auto;
+    font-size: 22px;
+    max-width: 888px;
+}
+.flower-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.flower-card{
+    margin-top: 30px;
+    max-width: 270px;
+}
+.card-data{
+    margin-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+.flower-name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.flower-price{
+   font-size: 22px;
+    font-weight: 700;
+
+}
