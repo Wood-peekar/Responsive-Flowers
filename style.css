@@ -220,3 +220,58 @@
 .deal-img-big{
     flex: 2;
 }
+
+/* footer section */
+.footer-banner{
+    background-image: url(assets/news-letter-bg.png);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 200px 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+}
+.footer-img{
+    position: relative;
+    z-index: 2;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.footer-img-title{
+    max-width: 586px;
+    margin: 0px auto;
+}
+.input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.input-form input{
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    flex: 1;
+    max-width: 644px;
+}
+.footer-img-title{
+    font-size: 50px;
+}
+.input-form button{
+    max-width: 186px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer-banner::after{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+  
