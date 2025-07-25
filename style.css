@@ -131,18 +131,17 @@
     justify-content: space-between;
     align-items: center;
 }
-.store-img img{
+.store-img .store{
     max-width: 100%;
+}
+.store-img{
+    position: relative;
 }
 .badge{
     max-width: 40%;
     position: absolute;
-    z-index: ;
-    left: 13%;
-    top: 13%;
-}
-.store{
-    position: relative;
+    top: -13%;
+    right: -13%;
 }
 .store-content{
     flex-direction: column;
@@ -180,6 +179,9 @@
 .deal-img-container{
     margin-top: 120px;
     gap: 28px;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .deal-img-container img{
     border-radius: 20px;
@@ -187,11 +189,6 @@
 .deal-img-small{
     flex-direction: column;
     gap: 24px;
-}
-.deal-img-container{
-  position: relative;
-  text-align: center;
-  color: white;
 }
 .deal-img-1{
     background-image: url(assets/deal-ana.png);
