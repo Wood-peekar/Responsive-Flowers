@@ -120,6 +120,10 @@
     gap: 10px;
     flex-direction: column;
 }
+.card-data a{
+    text-decoration: none;
+    color: white;
+}
 .flower-name{
     font-size: 22px;
     font-weight: 500;
