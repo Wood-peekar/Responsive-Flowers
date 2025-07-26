@@ -115,6 +115,9 @@
     margin-top: 30px;
     max-width: 270px;
 }
+.flower-card img{
+    max-width: 100%;
+}
 .card-data{
     margin-top: 20px;
     gap: 10px;
@@ -376,6 +379,14 @@
     margin-right: 24px;
 }
 @media screen and (max-width:576px) {
+    .header-text-title {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 1);
+    }
+    .header-text {
+    max-width: 570px;
+    padding: 10px;
+    }
     .nav-list{
         display: none;
     }
@@ -384,9 +395,11 @@
     }
     .flower-card-container{
         grid-template-columns: repeat(2,1fr);
+        padding: 10px;
     }
     .store-img-container{
         flex-direction: column;
+        padding: 10px;
     }
     .badge{
         display: none;
@@ -412,7 +425,29 @@
         flex-direction: column;
         margin-left: 20px;
     }
-    
-    
+    .input-form button {
+    max-width: 150px;
+    padding: 8px 20px;
+    font-size: 8px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    .input-form input {
+    padding: 8px;
+    font-size: 8px;
+    border: none;
+    /* flex: 1; */
+    max-width: 444px;
+    }
+    .btn {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(233, 90, 8, 1);
+    padding: 16px 30px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
 }
-  
+
+}
